@@ -5,45 +5,33 @@ This project is designed to detect whether the car produces excessive smog on th
 
 ## Introduction
 This is our UI surface. You can follow the steps to easily complete reporting.
-1. Input the video and start analyzing.
-2. press the button to show which car is available to report.
-3. pick a car to show its information. The play button can show the video of the car producing smog.
-4. press "save" to save the information into excel. "Web_Link" directs to the reporting web.
+1. Input the video file and start analyzing.
+2. Select the vehicle in the list to grab the info on the web. The system will show them in the table below.
+3. The button on the right-hand side can play, stop and restart the video clip.
+
+![測試](https://github.com/dabanshaw/smog_detect_project/blob/master/UI_surface.png "result")
 
 ## Algorithm
 
-![測試](https://github.com/dabanshaw/smog_detect_project/blob/master/surface.jpeg "test")
 
-This is the capture of sample video. We use opencv to realize image processing. 
+By uploading the sample video on the platform, the system detects the vehicles in the video and check whether it produces excessive smog. 
 
-![測試](https://github.com/dabanshaw/smog_detect_project/blob/master/sample.jpeg "test")
+![測試](https://github.com/dabanshaw/smog_detect_project/blob/master/smog.jpeg "result")
 
-This is the video captrue after processing obejct detection. You can see the square on car, scooter and the smog.
 
-![測試](https://github.com/dabanshaw/smog_detect_project/blob/master/object_detect.jpeg "test")
 
-When the smog produced by the vehicle is excessive, it is tagged with bad, which is available to report.
 
-![測試](https://github.com/dabanshaw/smog_detect_project/blob/master/smog.jpeg "test")
 
 
 
 ## requirement
-Python 3.8.13
 | Package       | Version       |
 | ------------- |:-------------:|
-| Python        | 3.8.13        |
-| opencv        | 3.8.13        |
-| pyqt          | 3.8.13        |
+| Python        | 3.8.12        |
+| opencv        | 4.3.0        |
+| pyqt          | 5.15.7        |
 | webdriver-manager| 3.8.3      |
-| beautifulsoup4| 4.11.1        |
-| selenium | 3.141.0        |
+| selenium | 4.5.0        |
 
 
 
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
