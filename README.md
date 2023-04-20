@@ -1,6 +1,6 @@
 # Practicing Car_Smog_detect
 
-This project is designed to detect whether the car produces excessive smog on the roed. We mainly use opencv to realize image processing and pyqt to design a UI surface.
+This project is designed to detect whether the car produces excessive smog on the roed. We mainly use opencv to realize image processing and pyqt to design a UI surface. What I've learned so far can only make it work on local video. This project will get improved in the future with more learning in image processing. 
 
 Here's the demo video https://youtu.be/yk0oV3okW8k
 
